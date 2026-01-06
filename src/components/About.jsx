@@ -23,7 +23,7 @@ const TimelineNode = ({ icon: Icon, title, description, side, index, scrollProgr
             {/* Content Card */}
             <motion.div
                 style={{ opacity, scale, x }}
-                className={`w-[45%] p-6 md:p-8 rounded-2xl bg-[#0a0a0a]/80 backdrop-blur-md border border-[var(--accent-gold)]/20 shadow-[0_0_30px_rgba(0,0,0,0.5)] 
+                className={`w-[45%] p-6 md:p-8 rounded-2xl bg-[#0a0a0a]/80 backdrop-blur-none md:backdrop-blur-md border border-[var(--accent-gold)]/20 shadow-[0_0_30px_rgba(0,0,0,0.5)] 
                 ${side === 'left' ? 'text-right' : 'text-left'}`}
             >
                 <div className={`flex items-center gap-4 mb-4 ${side === 'left' ? 'flex-row' : 'flex-row-reverse'}`}>

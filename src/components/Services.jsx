@@ -147,7 +147,7 @@ const Services = () => {
                                                 {/* Top Icon Area */}
                                                 <div className="flex justify-between items-start">
                                                     <div
-                                                        className="p-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10"
+                                                        className="p-4 rounded-2xl bg-white/5 backdrop-blur-none md:backdrop-blur-md border border-white/10"
                                                         style={{ boxShadow: `0 0 30px ${service.color}30` }}
                                                     >
                                                         <Icon size={40} style={{ color: service.color }} />

@@ -66,7 +66,7 @@ const Hero = () => {
                     </h1>
 
                     <motion.p
-                        className="text-lg md:text-3xl text-[var(--text-secondary)] max-w-3xl mx-auto leading-relaxed px-4 backdrop-blur-sm bg-black/30 p-6 rounded-xl border border-white/5 mt-8"
+                        className="text-lg md:text-3xl text-[var(--text-secondary)] max-w-3xl mx-auto leading-relaxed px-4 backdrop-blur-none md:backdrop-blur-sm bg-black/30 p-6 rounded-xl border border-white/5 mt-8"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 7.5, duration: 0.8 }}
